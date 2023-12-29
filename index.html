@@ -5,20 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FinesseFleet - EdTech Startup</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Tailwind CSS -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="styles.css" rel="stylesheet">
     <style>
         /* Custom styles */
-        .bg-lighter {
-            background-color: #E6E6FA; /* Lavender background color */
-        }
-
-        .text-black {
-            color: #000; /* Black text color */
+        /* You can add additional custom styles here if needed */
+        body {
+            background-image: linear-gradient(120deg, #f3e7e9 0%, #c5d9e9 100%);
         }
     </style>
 </head>
@@ -26,79 +21,190 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">FinesseFleet</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Courses</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+    <nav class="bg-purple-700 shadow-lg">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between py-4">
+                <a class="text-4xl font-bold text-white" href="#">FinesseFleet</a>
+                <div class="flex space-x-4">
+                    <a class="text-lg font-semibold text-white hover:text-gray-300 transition duration-300"
+                        href="#">Home</a>
+                    <a class="text-lg font-semibold text-white hover:text-gray-300 transition duration-300"
+                        href="#">Courses</a>
+                    <a class="text-lg font-semibold text-white hover:text-gray-300 transition duration-300"
+                        href="#">About</a>
+                    <a class="text-lg font-semibold text-white hover:text-gray-300 transition duration-300"
+                        href="#">Contact</a>
+                </div>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero bg-lighter py-5">
-        <div class="container text-center">
-            <h1 class="text-4xl font-bold">Welcome to FinesseFleet</h1>
-            <p class="mt-3 text-black">Your destination for quality education</p>
+    <section class="hero bg-purple-700 text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-6xl font-bold leading-tight">Welcome to FinesseFleet</h1>
+            <p class="mt-4 text-xl">Your destination for quality education</p>
         </div>
     </section>
 
     <!-- About Section -->
-    <section class="about py-5">
-        <div class="container">
-            <h2 class="text-2xl text-center font-semibold mb-3 text-black">About FinesseFleet</h2>
-            <p class="text-black">FinesseFleet, nestled in the vibrant educational hub of Hyderabad, Telangana, is your gateway to an educational revolution. Our unwavering commitment is to make top-quality education accessible to everyone, irrespective of their financial constraints. We not only aim to keep costs minimal but also take pride in offering free educational opportunities to exceptional scholars, ensuring that no one is left behind on their path to knowledge and success.</p>
-            <br>
-            <p class="text-black">At FinesseFleet, we provide a comprehensive spectrum of courses that cater to a wide audience, from Grade VI CBSE students seeking a strong foundation to aspiring engineers pursuing specialized Master's programs. Our digital ecosystem is a testament to our dedication to leveraging technology for the betterment of education.</p>
-            <br>
-            <p class="text-black">What truly sets us apart is our exceptional faculty, a distinguished team of educators renowned for their expertise and commitment to students' growth. We believe that learning should be a transformative experience, and our faculty is at the forefront of making this vision a reality.</p>
-            <br>
-            <p class="text-black">Explore our world of possibilities at FinesseFleet and be part of a community that embraces the spirit of lifelong learning and achievement. Together, we're rewriting the script of education for a brighter future.</p>
+    <section class="about py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-semibold mb-8 text-gray-800 text-center">About FinesseFleet</h2>
+            <p class="text-lg text-gray-700 mb-8 leading-relaxed">FinesseFleet, a pioneering EdTech platform
+                headquartered in Hyderabad, Telangana, India, is dedicated to revolutionizing education by providing
+                tailored guidance and comprehensive support for students of all levels. Recognizing the individuality of
+                each student, FinesseFleet goes beyond traditional educational approaches, offering personalized
+                assignments, targeted explanations, and mentorship programs to help students navigate both academic and
+                personal growth.</p>
+            <p class="text-lg text-gray-700 mb-8 leading-relaxed">At FinesseFleet, we believe in holistic development,
+                integrating co-curricular activities seamlessly into our platform. Our innovative learning environment,
+                coupled with a commitment to nurturing dreams through mentorship, sets us apart. Proudly launching K-12
+                courses tailored for CBSE students from Grade VI to Grade XII, FinesseFleet is committed to fostering a
+                love for learning, critical thinking, and problem-solving skills.</p>
+            <p class="text-lg text-gray-700 mb-8 leading-relaxed">Join us on this transformative educational journey,
+                where every student's potential is acknowledged, and dreams are not just envisioned but realized.</p>
         </div>
     </section>
 
-     <!-- Declaration -->
-    <section class="contact py-5">
-        <div class="container text-center">
-            <h2 class="text-2xl font-semibold text-black">Declaration about Present Affiliation(s)</h2>
-            <p class="text-black">
-                Please be advised that FinesseFleet is currently in the process of selecting office locations in Hyderabad, Telangana, India. It is imperative to acknowledge that the organization has yet to complete registration with any autonomous certifying bodies and has not obtained endorsement from the Ministry of Education (MoE), Government of India.
-<br> 
-Efforts are diligently underway to elevate FinesseFleet to a prominent standing in the industry in the forthcoming years.
-            </p>
-        
+    <!-- Courses Section -->
+    <section class="courses py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-semibold mb-8 text-gray-800 text-center">Explore Our Courses</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Course Card 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1668198991378-59ee7fdd264a?q=80&w=2038&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Course Image" class="w-full h-40 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Fractions</h3>
+                        <p class="text-gray-700 leading-relaxed mb-4">This comprehensive course delves into the
+                            fundamental operations in mathematics, covering a wide array of types including addition,
+                            subtraction, division, and multiplication. Participants will gain a thorough understanding
+                            of these essential operations, exploring various problem-solving techniques and real-world
+                            applications. The course extends beyond basic arithmetic, incorporating advanced
+                            simplification methods and tackling least fractions to fortify a solid foundation in
+                            mathematical principles. Moreover, participants will master the art of converting fractions
+                            to decimals and vice versa, enhancing their numerical fluency and problem-solving
+                            capabilities. Join this course to strengthen your mathematical prowess and excel in
+                            practical calculations and problem-solving scenarios.</p>
+                        <a href="#" class="text-purple-700 font-semibold hover:underline">Learn More</a>
+                    </div>
+                </div>
+                <!-- Course Card 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1631073872820-63fd2995bd39?q=80&w=2102&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Course Image" class="w-full h-40 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">LOGARITHMS</h3>
+                        <p class="text-gray-700 leading-relaxed mb-4">This course is a comprehensive exploration of
+                            logarithms, diving into their theory, properties, and practical applications. Participants
+                            will embark on a journey to understand the fundamental concepts underlying logarithmic
+                            functions, exponentials, and their interrelationships. The course delves into the mechanics
+                            of logarithms, offering in-depth insights into their rules, transformations, and theorems.
+                            Participants will learn advanced techniques for solving logarithmic equations and exploring
+                            their applications across various fields, including science, engineering, finance, and data
+                            analysis. Join this course to unravel the mysteries of logarithms, enhance problem-solving
+                            abilities, and apply logarithmic principles to real-world scenarios.</p>
+                        <a href="#" class="text-purple-700 font-semibold hover:underline">Learn More</a>
+                    </div>
+                </div>
+                <!-- Course Card 3 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="https://images.unsplash.com/photo-1617994452722-4145e196248b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Course Image" class="w-full h-40 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">SOUND WAVE & PROPAGATION</h3>
+                        <p class="text-gray-700 leading-relaxed mb-4">This course offers a comprehensive exploration of sound waves and their propagation, providing a deep understanding of the principles governing the transmission of sound. Participants will delve into the nature of sound waves, studying their characteristics, behaviors, and interactions with various mediums. The course covers the fundamentals of wave motion, exploring topics such as frequency, amplitude, wavelength, and velocity in the context of sound propagation. Participants will analyze the mechanisms through which sound travels in different environments, including gases, liquids, and solids. Additionally, the course delves into the practical applications of sound wave propagation across diverse fields such as acoustics, telecommunications, and audio engineering. Join this course to gain a profound comprehension of sound wave behavior and its significance in various domains.
+
+                        </p>
+                        <a href="#" class="text-purple-700 font-semibold hover:underline">Learn More</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
+    <!-- Founder CEO Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-semibold mb-8 text-gray-800 text-center">Founder & CEO</h2>
+            <div class="flex justify-center">
+                <div class="bg-purple-700 rounded-lg overflow-hidden shadow-md w-64">
+                    <img src="https://via.placeholder.com/300x200" alt="Founder CEO" class="w-full h-40 object-cover">
+                    <div class="p-6 text-center">
+                        <h3 class="text-xl font-semibold mb-2 text-white">Arpita AB.</h3>
+                        <p class="text-gray-200">Founder & CEO, <br> FinesseFleet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Board Members Section -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-semibold mb-8 text-gray-800 text-center">Board Members</h2>
+            <div class="flex justify-center gap-8">
+                <!-- Board Member Card 1 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md w-64">
+                    <img src="/akhil.png" alt="Board Member 1" class="w-full h-40 object-cover">
+                    <div class="p-6 text-center">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Akhil Akkineni</h3>
+                        <p class="text-gray-500">Director of Operations and Executions</p>
+                    </div>
+                </div>
+                <!-- Board Member Card 2 -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md w-64">
+                    <img src="tarun.jpeg" alt="Board Member 2" class="w-full h-40 object-cover">
+                    <div class="p-6 text-center">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Tarun Adhikari</h3>
+                        <p class="text-gray-500">Director of Academics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founding Software Development Engineers Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-semibold mb-8 text-gray-800 text-center">Founding Software Development Engineers
+                (SDEs)</h2>
+            <div class="flex justify-center">
+                <!-- Software Engineer Card 1 -->
+                <div class="bg-green-700 rounded-lg overflow-hidden shadow-md w-64">
+                    <img src="/vinay.jpeg" alt="Software Engineer" class="w-full h-40 object-cover">
+                    <div class="p-6 text-center">
+                        <h3 class="text-xl font-semibold mb-2 text-white">Vinay Surisetty</h3>
+                        <p class="text-gray-200">Frontend SDE</p>
+                    </div>
+                </div>
+                <!-- Software Engineer Card 2 -->
+                <div class="bg-green-700 rounded-lg overflow-hidden shadow-md w-64 ml-8">
+                    <img src="/nithin.jpeg" alt="Software Engineer" class="w-full h-40 object-cover">
+                    <div class="p-6 text-center">
+                        <h3 class="text-xl font-semibold mb-2 text-white">Nithin Lashetti</h3>
+                        <p class="text-gray-200">Frontend SDE</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Contact Section -->
-    <section class="contact py-5">
-        <div class="container text-center">
-            <h2 class="text-2xl font-semibold text-black">Contact Us</h2>
-            <p class="text-black">Hyderabad, India</p>
-            <p class="text-black">Contact No.: +91 81017 38644</p>
-            <p class="text-black">Email: <a href="mailto:contact@finessefleet.com">contact@finessefleet.com</a></p>
+    <section class="contact bg-purple-700 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-semibold mb-4">Contact Us</h2>
+            <p class="text-lg">Hyderabad, India</p>
+            <p class="text-lg">Contact No.: +91 81017 38644</p>
+            <p class="text-lg">Email: <a class="underline hover:text-gray-300"
+                    href="mailto:contact@finessefleet.com">contact@finessefleet.com</a></p>
         </div>
     </section>
 
-    <!-- Bootstrap JavaScript (Optional) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Tailwind CSS & Custom JavaScript (Optional) -->
+    <!-- Tailwind CSS is included via CDN in the head section -->
+    <!-- If you have custom JavaScript, include it here -->
+
 </body>
 
 </html>
