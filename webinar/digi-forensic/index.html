@@ -92,13 +92,23 @@
 
         <div class="separator"></div>
 
+        
         <div class="mt-8 p-6 bg-gradient-to-r from-pink-600 to-purple-700 rounded-lg text-center">
             <h2 class="text-3xl font-bold text-white mb-4">Secure Your Spot Now! 💳</h2>
             <p class="text-white text-lg">Reserve your spot for just Rs. 9. Click the button below for a quick and
                 secure transaction.</p>
-            <a href="[Payment Gateway Link]"
-                class="bg-pink-400 text-white py-2 px-6 rounded-md inline-block mt-4 hover:bg-pink-500 transition duration-300">Pay
-                Rs. 9</a>
+            <center>
+                <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_NI7ZFv5aU4g2mr/view" data-text="Pay Now" data-color="#528FF0" data-size="large">
+                    <script>
+                      (function(){
+                        var d=document; var x=!d.getElementById('razorpay-embed-btn-js')
+                        if(x){ var s=d.createElement('script'); s.defer=!0;s.id='razorpay-embed-btn-js';
+                        s.src='https://cdn.razorpay.com/static/embed_btn/bundle.js';d.body.appendChild(s);} else{var rzp=window['__rzp__'];
+                        rzp && rzp.init && rzp.init()}})();
+                    </script>
+                  </div>
+                      
+            </center>
         </div>
     </div>
 
